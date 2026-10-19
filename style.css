@@ -10,7 +10,7 @@ body {
     border: 3px solid black;
 }
 
-/* ===== Header ===== */
+
 header {
     display: flex;
     border: 3px solid black;
@@ -65,7 +65,7 @@ header {
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* ===== Hero ===== */
+
 .name {
     display: inline;
     background-color: rgb(162, 0, 255);
@@ -155,7 +155,7 @@ header {
 .left {
     width: 50%;
     padding: 40px;
-    background-image: url("Snopoy dinosaurio.jpg");
+    background-image: url("dino.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -191,7 +191,7 @@ header {
     font-size: 1.2em;
 }
 
-/* ===== About ===== */
+
 .aboutt {
     font-family: 'Courier New', Courier, monospace;
     display: grid;
@@ -203,7 +203,7 @@ header {
     box-shadow: 10px 0 black;
 }
 
-/* ===== Skills ===== */
+
 .skills {
     border: 3px solid black;
     box-shadow: 10px 0 black;
@@ -239,7 +239,6 @@ header {
     margin: 7px;
 }
 
-/* ===== Projects + Certifications ===== */
 .split {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -275,14 +274,14 @@ header {
 }
 
 .card-img.pink {
-    background-image: url("download.jpg");
+      background-image: url("watermelon.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .card-img.lime {
-    background-image: url("8c20bcdb152688cedb96ecdbc1cdd0c7.jpg");
+    background-image: url("cat.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -327,7 +326,7 @@ header {
     margin-bottom: 18px;
 }
 
-/* ===== Experience ===== */
+
 .split.experience {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -393,7 +392,7 @@ header {
     padding-bottom: 0;
 }
 
-/* ===== Contact ===== */
+
 .contact-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -440,7 +439,7 @@ button {
     font-weight: 700;
 }
 
-/* ===== Footer ===== */
+
 .footer {
     display: flex;
     align-items: center;
@@ -458,7 +457,7 @@ button {
     padding: 10px 16px;
 }
 
-/* ===== Mobile ===== */
+
 @media only screen and (max-width: 1000px) {
     body {
         padding: 10px;
