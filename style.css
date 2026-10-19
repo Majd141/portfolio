@@ -1,0 +1,386 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f4f2ee;
+    color: black;
+    padding: 20px;
+}
+.page {
+    background-color: white;
+    border: 3px solid black;
+}
+header{
+    display: flex;
+    border: 3px solid black;
+    box-shadow: 10px 10px 0 black;
+
+}
+
+.logo {
+    background-color: rgb(162, 255, 0);
+    padding: 14px 20px;
+    border: 3px solid black;
+    display: flex;
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+    margin-right: 200px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.nav {
+    display: flex;
+    background-color: white;
+    font-size: larger;
+    color: black;
+    text-decoration: none;
+     padding: 14px 20px;
+}
+.nav a {
+    margin: 0 15px;
+
+    font-size: larger;
+    color: black;
+    text-decoration: none;
+    
+}
+.nav a:hover{color: rgb(162, 255, 0);}
+.contact {
+    background-color: rgb(162, 0, 255);
+    color: white;
+    margin-left: 400px;
+    padding: 14px 20px;
+    text-decoration: none;
+font-family: 'Courier New', Courier, monospace;
+}
+.name {
+    display: inline;
+    background-color: rgb(162, 0, 255);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+padding: 3px 5px;
+
+}
+.major{
+    display: inline;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(162, 255, 0);
+}
+.info {
+display: inline;
+background-color: white;
+     font-family: 'Courier New', Courier, monospace;
+     background-color: white;
+}
+.view {
+    background-color: rgb(162, 255, 0); 
+    text-decoration: none;
+    color: black;
+     padding: 14px 20px;
+      border: 3px solid black;
+      font-weight: 700;
+ box-shadow: 4px 4px 0 black;
+ margin-top: auto;
+}
+.view:hover{color:white ;}
+.touch {
+    text-decoration: none;
+    color: black;
+     padding: 14px 20px;
+      border: 3px solid black;
+     font-weight: 700;
+     box-shadow: 4px 4px 0 black;
+     background-color: white;
+     margin-top: auto;
+}
+.touch:hover{color:rgb(170, 255, 0) ;}
+
+.contactt  {
+
+     font-family: monospace;
+     margin-top: 30px;
+     font-weight: 700;
+     font-size: larger;
+     margin-top: auto;
+}
+.contactt p{
+    display: inline;
+    background-color: white;
+}
+.icons a {
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 10px;
+    color: black;
+     border: 3px solid black;
+     margin-bottom: 10px;
+     box-shadow: 4px 4px 0 black;
+     padding: 14px 20px;
+     margin-top: auto;
+
+}
+.icons a:hover{background-color:rgb(162, 255, 0) ;}
+.hero {
+     display: flex;
+     box-shadow: 10px 0 black;
+}
+
+.left {
+    width: 50%;
+    padding: 40px;
+    background-image: url(/Snopoy\ dinosaurio.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    flex: 1 1 auto;
+}
+
+
+.right {
+    width: 50%;
+    background-color: #ff7a9c;
+
+}
+.mee {
+    width: 50%;
+   width: 500px;
+   margin-left: 100px;
+
+    background-position: center;
+    border: 10px solid  rgb(162, 255, 0);
+}
+.code-box {
+    background-color:  rgb(162, 0, 255);
+    display: inline-block;
+    position: relative;
+    margin-left: 400px;
+    margin-top: 2px;
+    color: white;
+     box-shadow: 4px 4px 0 black;
+     font-weight: 700;
+     font-size: larger;
+
+}
+.aboutt {
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+     grid-template-columns: 1fr 1fr;
+}
+.block{
+    border: 3px solid black;
+    box-shadow: 10px 0 black;
+}
+.skills {
+    border: 3px solid black;
+    box-shadow: 10px 0 black;
+    display: flex;
+}
+
+.skills-label {
+    background-color: rgb(162, 0, 255);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    min-width: 180px;
+}
+
+.skills-list {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 14px;
+    padding: 20px;
+    margin: 0;
+    list-style-type: none;
+    background-color: #f4f2ee;
+}
+
+.skills-list li {
+    border: 3px solid black;
+    box-shadow: 3px 3px 0 black;
+    background-color: white;
+    padding: 8px 16px;
+}
+.split { display: grid; grid-template-columns: 2fr 1fr;  border-bottom:3px solid black ;  box-shadow: 10px 0 black;}
+.projects { padding: 32px; }
+.cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.card {
+   box-shadow: 3px 3px 0;
+  border: 3px solid black;
+  padding: 14px;
+  background: var(--white);
+  transition: transform .2s;
+}
+.card:hover { transform: translateY(-5px); }
+.card-img {
+  height: 130px;
+  display: grid; place-items: center;
+  margin-bottom: 12px;
+}
+.card-img.pink { background-image: url(/download.jpg) ;
+ background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;}
+.card-img.lime { background: url(/8c20bcdb152688cedb96ecdbc1cdd0c7.jpg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    box-shadow: 4px 4px 0 black;
+    padding: 10px 16px;
+    margin-top: 12px;
+    font-weight: 700;
+}
+.chips {
+     display: flex; gap: 6px;
+}
+.chips span {
+    border: 3px solid black;
+    box-shadow: 3px 3px 0 black;
+    background-color: white;
+    padding: 8px 16px;
+}
+.certs { 
+    background-color:rgb(162, 255, 0) ;
+     padding: 32px 24px;
+}
+.cert {
+    display: block;
+    background-color: white;
+      padding: 34px 10px;
+  text-align: center;
+  border: 3px solid black;
+    box-shadow: 4px 4px 0 black;
+    margin-bottom: 18px;
+}
+.split.experience {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+     box-shadow: 10px 0 black;
+}
+
+.exp-title {
+    background-color: #ff7a9c;
+    display: flex;
+    
+    padding: 24px;
+    font-weight: 700;
+    font-size: x-large;
+    align-items: center;
+}
+
+.cta {
+    background-color: rgb(162, 0, 255);
+    color: white;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cta a {
+    color: white;
+}
+.exp-list {
+    padding: 40px;
+    display: grid;
+    gap: 30px;
+}
+
+.job h3 {
+    margin: 0 0 8px;
+}
+
+.job small {
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 8px;
+}
+
+.job p {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.job {
+    padding-bottom: 30px;
+    border-bottom: 2px dashed black;
+}
+
+.job:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.cta a{
+    display: inline;
+  width: 130px;
+  color: black;
+    border: 3px solid black;
+    box-shadow: 3px 3px 0 black;
+    background-color: white;
+    padding: 8px 16px;
+
+}
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.contact-grid p {
+    margin-bottom: 10px;
+}
+
+.contact-grid a {
+    text-decoration: underline;
+    color: rgb(162, 0, 255);
+}
+form { display: grid; gap: 8px; }
+label { font-weight: 700;}
+input, textarea {
+    padding: 10px;
+    border: 3px solid black;
+    font-family: 'Courier New', Courier, monospace;
+}
+input:focus, textarea:focus { background-color:rgb(162, 255, 0) ;}
+button {
+    background-color: rgb(162, 255, 0);
+    border: 3px solid black;
+    box-shadow: 4px 4px 0 black;
+    padding: 12px;
+    font-weight: 700;
+}
+.contact-grid a{
+    text-decoration: none;
+    color: black;
+
+}
+.contact-grid a:hover{color:rgb(162, 255, 0) ;}
+.footer { display: flex; align-items: center;
+ box-shadow: 10px 0 black;}
+.footer p {
+    font-weight: 700;
+    text-align: center; padding: 10px;
+}
+.footer .icons { padding: 10px 16px;
+
+}
+
+
+
+
+
+
